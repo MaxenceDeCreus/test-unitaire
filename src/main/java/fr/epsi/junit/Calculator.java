@@ -20,7 +20,7 @@ public class Calculator {
         return a / b;
     }
 
-    public int addTab(int[] numbers, int index, int number){
-        return numbers[index] = number;
+    public int add(int[] numbers){
+        return 0;
     }
 }

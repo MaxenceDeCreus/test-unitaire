@@ -53,12 +53,6 @@ public class CalculatorTest {
 
     @Test
     public void should_add_numbers_in_tab(){
-        int[] numbers = new int[10];
-        int number = 10;
-        int index = 1;
-        int result = numbers[index] = number;
-
-        Assertions.assertEquals(result, calculator.addTab(numbers, index, number));
     }
 
     @AfterEach
