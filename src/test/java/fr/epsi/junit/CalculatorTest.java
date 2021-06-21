@@ -52,7 +52,10 @@ public class CalculatorTest {
     }
 
     @Test
-    public void should_add_numbers_in_tab(){
+    public void should_sum_numbers_in_tab(){
+        int[] numbers = { 10, 5, 8, 7, 2 };
+
+        Assertions.assertEquals(32, calculator.add(numbers));
     }
 
     @AfterEach
