@@ -1,5 +1,7 @@
 package fr.epsi.junit;
 
+import java.sql.SQLOutput;
+
 public class Calculator {
 
     public int add(int a, int b){
@@ -18,7 +20,7 @@ public class Calculator {
         return a / b;
     }
 
-    public int add(int[] nmbers){
-        return 0;
+    public int addTab(int[] numbers, int index, int number){
+        return numbers[index] = number;
     }
 }
